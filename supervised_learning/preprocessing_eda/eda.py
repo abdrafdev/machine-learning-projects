@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load dataset
-df = pd.read_csv("../datasets/iris.csv", header=None)
+df = pd.read_csv("../../datasets/iris.csv", header=None)
 df.columns = ["sepal_length", "sepal_width", "petal_length", "petal_width", "species"]
 
 print("Dataset info:")

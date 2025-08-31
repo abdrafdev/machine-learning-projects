@@ -5,7 +5,7 @@ from sklearn.metrics import accuracy_score, classification_report
 import matplotlib.pyplot as plt
 
 
-df = pd.read_csv("../datasets/iris.csv", header=None)
+df = pd.read_csv("../../datasets/iris.csv", header=None)
 df.columns = ["sepal_length", "sepal_width", "petal_length", "petal_width", "species"]
 
 

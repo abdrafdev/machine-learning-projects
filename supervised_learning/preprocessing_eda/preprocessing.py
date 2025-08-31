@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 
  
-df = pd.read_csv("../datasets/iris.csv", header=None)
+df = pd.read_csv("../../datasets/iris.csv", header=None)
 df.columns = ["sepal_length", "sepal_width", "petal_length", "petal_width", "species"]
 
 print("First 5 rows:")
